@@ -1,6 +1,6 @@
 # iPhone E-Commerce Website 📱
 
-🚀 **Live Demo:** [https://bester-ecommerce.netlify.app](https://bester-ecommerce.netlify.app)
+🚀 **Live Demo:** [https://bester-ecommerce.netlify.app](https://tbester-ecomm.netlify.app/)
 
 ## Overview
 
