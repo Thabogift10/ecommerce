@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    margin: 0px;
+    font-size: 1.2em;
+    background-color: white;
+    color: #4c83d4;
+}
+.header{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+}
+.nav a{
+    color: #4c83d4;
+    text-decoration: none;
+}
+.nav a:hover{
+    border-bottom: 1px solid;
+}
+.main{
+    display: grid;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-between;
+    text-align: center;
+    align-items: start;
+    padding: 50px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+.description h2{
+    padding: 10px 0;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 80%;
+   height: 100%;
+   background-size: 100% 100%;
+   animation: slider 100s  ease infinite;
+}
+@keyframes slider{
+    0%{
+    background-image: url(iphones/8.jpeg);
+    }
+    12.5%{
+        background-image: url(iphones/x.jpeg);
+    }
+    25%{
+        background-image: url(iphones/xr.jpeg);
+    }
+    37.5%{
+        background-image: url(iphones/11.jpeg);
+    }
+    50%{
+        background-image: url(iphones/12.jpeg);
+    }
+    62.5%{
+        background-image: url(iphones/12.jpeg);
+    }
+    75%{
+        background-image: url(iphones/13.jpeg);
+    }
+    87.5%{
+        background-image: url(iphones/14.jpeg);
+    }
+    100%{
+        background-image: url(iphones/15.jpeg);
+    }
+}
+.footer{
+    margin-top: 50px;
+    background-color: #4c83d4;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials a:hover{
+    border-bottom: 1px solid;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.shop-now{
+    position: relative;
+    top: 20px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4c83d4;
+    color: white;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+.shop-now a{
+    text-decoration: none;
+    color: white;
+}

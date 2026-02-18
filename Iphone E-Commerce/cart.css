@@ -1,0 +1,130 @@
+  *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        padding: 0px;
+        margin: 0px;
+        font-size: 1.2em;
+    }
+    .header {
+        padding: 0px 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap; /
+    }
+     .nav{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .nav a{
+        color: #4c83d4;
+        text-decoration: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav a:hover{
+        border-bottom: 1px solid #4c83d4;
+    }
+        .main {
+        padding: 10px;
+        overflow-x: auto; 
+    }
+
+    table {
+        margin-top: 30px;
+        width: 100%;
+        border-collapse: collapse;
+    }
+    thead{
+        background-color: #4c83d4;
+    }
+    @media(max-width:600px){
+        thead{
+            display: none;
+        }
+        tr{
+            display: block;
+            margin-top: 20px;
+            border: 2px solid #4c83d4;
+            padding: 10px;
+        }
+        td{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            border: none;
+            position: relative;
+            padding-left: 50%;
+        }
+        td::before{
+            content: attr(data-label);
+            left: 10px;
+            font-weight: bold;
+            text-align: left;
+        }
+        td div{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        td button{
+            width: 35px;
+            height: 35px;
+            font-size: 1.2em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    table img{
+        width: 40px;
+        height: auto;
+    }
+    td{
+        word-wrap: break-word;
+        font-size: 0.9em;
+    }
+    th, td { 
+        align-items: flex-start;
+        padding: 12px;
+        border: 1px solid #eee; 
+    }
+
+    .sec-container {
+        position: sticky; 
+        bottom: 0;
+        width: 100%;
+        padding: 10px 10px;
+        background: #4c83d4;
+        color: white;
+    }
+    #checkout{
+        width: 200px;
+        height: 25px;
+        border-radius: 5px;
+        border: 1px solid white;
+        background-color: #4c83d4;
+        color: white;
+        font-size: 0.9em;
+        cursor: pointer;
+    }
+    .del-btn{
+        width: 100px;
+        height: 25px;
+        background-color: #4c83d4;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    .qty-btn{
+        width: 80px;
+        height: 25px;
+        background-color: #4c83d4;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }

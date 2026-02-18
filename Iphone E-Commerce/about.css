@@ -1,0 +1,58 @@
+  *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        }
+        body{
+        padding: 10px 0;
+        margin: 0px;
+        font-size: 1.2em;
+        background-image: url(iphones/images1.jpg);
+        background-size: cover;
+        object-fit: contain;
+        }
+        .header{
+        padding: 0px 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap; /* Allows wrap on tiny screens */
+        } 
+       .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        gap: 10px;
+        }
+        .nav a{
+        color: #4c83d4;
+        text-decoration: none;
+        }
+        .nav a:hover{
+        border-bottom: 1px solid;
+        }
+        .main{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        flex-direction: column;
+        gap: 10px;
+         font-size: 1.2em;
+        }
+        .about-us{
+            display: flex;
+            flex-direction: column;
+            padding-left: 20px;
+            padding-top: 20px 10px;
+        }
+        .about-us h2{
+            padding: 10px 0;
+            color: #4c83d4;
+        }
+        .about-us span{
+            color: black;
+        }
+        .about-us p{
+            padding: 20px;
+            color: #4c83d4;
+        }

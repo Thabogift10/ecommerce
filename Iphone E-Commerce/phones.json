@@ -1,0 +1,89 @@
+[
+    {
+        "id":1,
+        "name": [{
+            "preownedname":  "IPHONE Pre-Owned 8 64GB",
+            "newphone": "IPHONE 8 64GB" 
+        }],
+        "model": "8 SERIES",
+        "image": [{"src": "iphones/8.jpeg"}],
+        "preownedprice": 2599,
+        "newprice": 3199
+    },
+    {
+        "id":2,
+         "name": [{
+            "preownedname":  "IPHONE X Pre-Owned 64GB",
+            "newphone": "IPHONE X 64GB" }],
+        "model": "X SERIES",
+        "image": [{"src": "iphones/x.jpeg"}],
+        "preownedprice": 3399,
+        "newprice": 4099
+    },
+    {
+        "id":3,
+        "name": [{
+            "preownedname":  "IPHONE XR Pre-Owned 64GB",
+            "newphone": "IPHONE XR 64GB" 
+            }],
+        "model":"XR SERIES",
+        "image": [{"src": "iphones/xr.jpeg"}],
+        "preownedprice": 3999,
+        "newprice": 4199
+    },
+    {
+        "id":4,
+        "name": [{
+            "preownedname":  "IPHONE 11 Pre-Owned 64GB",
+            "newphone": "IPHONE 11 64GB" 
+            }],
+        "model":"11 SERIES",
+        "image": [{"src": "iphones/11.jpeg"}],
+        "preownedprice": 3699,
+        "newprice": 4599
+    },
+    {
+        "id":5,
+        "name": [{
+            "preownedname":  "IPHONE 12 Pre-Owned 64GB",
+            "newphone": "IPHONE 12 64GB" 
+            }],
+        "model":"12 SERIES",
+        "image": [{"src": "iphones/12.jpeg"}],
+        "preownedprice": 4399,
+        "newprice": 5399
+    },
+    {
+        "id":6,
+        "name": [{
+            "preownedname":  "IPHONE 13 Pre-Owned 128GB",
+            "newphone": "IPHONE 13 128GB" 
+            }],
+        "model":"13 SERIES",
+        "image": [{"src": "iphones/13.jpeg"}],
+        "preownedprice": 6599,
+        "newprice": 7799
+    },
+    {
+        "id":7,
+        "name": [{
+            "preownedname":  "IPHONE 14 Pre-Owned 128GB",
+            "newphone": "IPHONE 14 128GB" 
+            }],
+        "model":"14 SERIES",
+        "image": [{"src": "iphones/14.jpeg"}],
+        "preownedprice": 7899,
+        "newprice": 9199
+    },
+    {
+        "id":8,
+        "name": [{
+            "preownedname":  "IPHONE 15 Pre-Owned 128GB",
+            "newphone": "IPHONE 15 128GB" 
+            }],
+        "model":"15 SERIES",
+        "image": [{"src": "iphones/15.jpeg"}],
+        "preownedprice": 8990,
+        "newprice": 12999
+    }
+]
